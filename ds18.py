@@ -1,9 +1,9 @@
 def sqmatrix(no):
-    for i in range(no+1, 0, -1):
-        for k in range(1, i , 1):
-            print(chr(64 + k), end=" ")
-        print("")
+    for i in range(no, 0, -1): 
+        for j in range(i, no + 1, 1): 
+            print(chr(ord('A') + j - 1), end = " "); 
 
+        print("");
 
 
 
