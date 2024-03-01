@@ -4,7 +4,7 @@ def sqmatrix(no):
         stars = "*" * i
         print(spaces + stars + spaces)
 
-    for i in range( no * 2 -1 , 0,  -2):
+    for i in range(no * 2 - 1, 0, -2):
         spaces = " " * ((no * 2 - 1 - i) // 2)
         stars = "*" * i
         print(spaces + stars + spaces)

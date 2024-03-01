@@ -4,5 +4,6 @@ def sqmatrix(no):
             print(chr(x), end="")
         print("")
 
+
 number = int(input("What's the value of N: "))
 sqmatrix(number)

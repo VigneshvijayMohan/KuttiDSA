@@ -7,9 +7,6 @@ def sqmatrix(no):
                 print("1", end="")
         print("")
 
-    
-
-
 
 number = int(input("Whats the value of N:  "))
 sqmatrix(number)
